@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container-fluid{
+    background-color: #04AA6D;
+}
+
+.bg-body-tertiary{
+    background-color: #04AA6D;
+} 
+
+#teste{
+    padding: 0px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    gap: 50%;
+    
+}
+
+.primeiraparte {
+    padding: 5%;
+}
+
+.primeiraparte h1 {
+    font-size: 12vh;
+    color: white;
+}
+
+.primeiraparte h3 {
+    font-size: 30px;
+    width: 50%;
+    margin-top: -3%;
+    margin-bottom: 8%;
+    display: flow-root;
+}
+
+.fotofundo {
+    height: 100vh;
+    position: relative;
+}
+
+.fotofundo::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(./imagens/mafia.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4; /* Corrigido para 40% */
+}
+
+span {
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.span1 {
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Botão AGENDE AQUI */
+button {
+    font-family: "Inter", sans-serif;
+    background-color: #04AA6D;
+    border: none;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 2px rgb(0, 104, 81);
+}
+
+button:hover {
+    color: whitesmoke;
+    transition: all .5s;
+}
